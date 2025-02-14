@@ -4,7 +4,7 @@ import urllib.parse
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
-app.secret_key = '32424-5235235-5325235n23'
+app.secret_key = ''#Your secret key goes here
 
 CLIENT_ID = ''#Your client ID goes here
 CLIENT_SECRET = ''#Your client secret goes here
